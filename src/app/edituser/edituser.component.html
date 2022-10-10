@@ -1,0 +1,41 @@
+<h1 mat-dialog-title>Edit user</h1>
+<div mat-dialog-content>
+    <form [formGroup]="UserForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Name</mat-label>
+            <input formControlName="name" matInput placeholder="">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Email Address</mat-label>
+            <input formControlName="email" matInput placeholder="">
+        </mat-form-field><br>
+
+        <mat-radio-group formControlName="gender" appearance="outline">
+            <label class="example-radio-group">Gender</label>
+            <mat-radio-button value="Male">Male</mat-radio-button>
+            <mat-radio-button value="Female">Female</mat-radio-button>
+        </mat-radio-group><br>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Date Of Birth</mat-label>
+            <input formControlName="dob" matInput [matDatepicker]="picker">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Address</mat-label>
+            <input formControlName="address" matInput placeholder="">
+        </mat-form-field>
+
+
+</form>
+</div>
+<div mat-dialog-action [align]="'end'">
+    <button mat-raised-button mat-dialog-close>Close</button>
+    <button style="margin-left: 8px;" mat-raised-button (click)="AddUser()">{{actionBtn}}</button>
+
+    
+
+</div>

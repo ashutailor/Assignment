@@ -1,0 +1,76 @@
+{
+  "user": [
+    {
+      "name": "Rajat",
+      "email": "rajat12@gmail.com",
+      "gender": "Male",
+      "dob": "2022-10-18T18:30:00.000Z",
+      "address": "Gujarat",
+      "id": 14
+    },
+    {
+      "name": "Asta",
+      "email": "asta00@gmail.com",
+      "gender": "Female",
+      "dob": "2020-05-27T18:30:00.000Z",
+      "address": "Gandhi nagar",
+      "id": 16
+    },
+    {
+      "name": "Rashmi",
+      "email": "rashmi12@gmail.com",
+      "gender": "Female",
+      "dob": "1992-05-11T18:30:00.000Z",
+      "address": "Pune",
+      "id": 17
+    },
+    {
+      "name": "Akash Rajput",
+      "email": "akash141@gmail.com",
+      "gender": "Male",
+      "dob": "1996-02-05T18:30:00.000Z",
+      "address": "Delhi",
+      "id": 18
+    },
+    {
+      "name": "Twinkle Khanna",
+      "email": " twin11@gmail.com",
+      "gender": "Female",
+      "dob": "2016-01-11T18:30:00.000Z",
+      "address": "Kolkata",
+      "id": 19
+    },
+    {
+      "name": "rama kumar",
+      "email": "rk11@gmail.com",
+      "gender": "Male",
+      "dob": "1987-11-17T18:30:00.000Z",
+      "address": "Kota",
+      "id": 20
+    },
+    {
+      "name": "Rohan sain",
+      "email": "rohan111@gmail.com",
+      "gender": "Male",
+      "dob": "1922-11-22T18:30:00.000Z",
+      "address": "vidhadhaar nagar",
+      "id": 21
+    },
+    {
+      "name": "Ramankant verma",
+      "email": "ramanverma12@gmail.com",
+      "gender": "Male",
+      "dob": "2016-02-01T18:30:00.000Z",
+      "address": "Jhadli",
+      "id": 22
+    },
+    {
+      "name": "Gopal Kumar Rathore",
+      "email": "gkr109@gmail.com",
+      "gender": "Male",
+      "dob": "2013-10-02T18:30:00.000Z",
+      "address": "Ajmer",
+      "id": 23
+    }
+  ]
+}
